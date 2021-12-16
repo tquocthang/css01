@@ -1,0 +1,116 @@
+@media (max-width: 1100px) {
+    .page__main {
+        background-image: url("../img/background.png");
+        /*background-color: #feeaed;*/
+        margin: 0;
+        padding: 0;
+        background-position: 0%;
+        background-position-y: 0rem ;
+        background-size: 200%;
+}
+.cover {
+    width:400px;
+    height: 400px;
+   
+    box-shadow: 0 0 30px #eee;
+    position: absolute;
+    margin-top: 13rem;
+    left: calc(75% - 100px);
+  
+    border-radius: 480px;
+    border: 10px solid rgb(91, 193, 237,1);
+}
+.text {
+    width: 600px;
+    font-size: 14px;
+    margin-left: 20px;
+    color:black;
+    padding: 0px;
+    position: relative; 
+    top: 55rem;
+    left: 35%;
+}
+.btn-bir {
+    background-image: linear-gradient(
+        to right,
+        #314755 0%,
+        #26a0da 51%,
+        #314755 100%
+    );
+    margin: 0px;
+    padding: 30px 70px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 80px;
+    display: block;
+}
+.btn-timeline {
+    margin: 0px;
+    padding: 30px 70px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 60px;
+    display: block;
+}
+.btn-gallery {
+    margin: 0px;
+    padding: 30px 70px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 60px;
+    display: block;
+}
+
+@media (max-width:420px) {
+   .page__main{
+    background-size: 195%;
+   }
+}
+@media (max-width:380px) {
+    .page__main{
+     background-size: 220%;
+    }
+    .text{
+        left: 130px;
+        font-size: 20px;
+    }
+ }
+ @media (max-width:380px) {
+    .page__main{
+     background-size: 220%;
+    }
+    .cover{
+        left: calc(80% - 100px);
+    }
+ }
+ @media (max-width:370px) {
+    .page__main{
+     background-size: 220%;
+    }
+    .cover{
+        left: calc(79% - 100px);
+    }
+}
+@media (max-width:330px) {
+    .page__main{
+     background-size: 250%;
+    }
+    .cover{
+        left: calc(90% - 100px);
+    }
+}

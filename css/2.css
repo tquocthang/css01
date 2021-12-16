@@ -1,0 +1,136 @@
+@media (max-width: 600px) {
+    body {
+        margin: ;
+        padding: 0;
+        background-image: url(../img/hinh-nen-cute-1.jpg);
+        background-size: 270%;
+        background-repeat: no-repeat;
+        font-size: 100px;
+        font-family: "Roboto";
+        color: aqua;
+        overflow: auto;
+    }
+    a {
+        color: #00ff45;
+        font-size: 60px;
+        text-decoration: none;
+    }
+    #main {
+        width: 100%;
+    }
+    #wrap {
+        position: relative;
+        margin: 0 auto;
+        width: 1100px;
+        height: 680px;
+        margin-top: 1000px;
+    }
+    #text {
+        width: 800px;
+        height: 500px;
+        left: 200px;
+        top: -960px;
+        font-size: 50px;
+        position: absolute;
+    }
+    #code {
+        display: none;
+        width: 725px;
+        font-weight: 1px;
+        font: 1em sans-serif;
+        font-size: 45px;
+    }
+    #clock-box {
+        display: none;
+        position: absolute;
+        left: 150px;
+        top: 590px;
+        font-size: 28px;
+        display: none;
+    }
+    #clock-box a {
+        margin-left: -1500px;
+        display: none;
+    }
+    #clock {
+        margin-left: -1500px;
+    }
+    #clock .digit {
+        font-size: 50px;
+    }
+    #canvas {
+        margin:500 auto;
+        margin-top: -50;
+        width: 1100px;
+        height: 680px;
+    }
+    #error {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 60px;
+        display: none;
+    }
+    .hand {
+        cursor: pointer;
+    }
+    #code {
+        margin-left: -50px;
+        margin-top: 50px;
+        width: 850px;
+        color: rgba(100, 250, 200, 1 );
+        font-family: roboto;
+        border-start-end-radius: 10px;  
+        /* background-color: rgba(255, 255,255, 0.1) */
+
+    }
+    .space {
+        margin-right: 150px;
+    }
+    .btn-bir {
+        background-image: linear-gradient(
+            to right,
+            #314755 0%,
+            #26a0da 51%,
+            #314755 100%
+        );
+        margin: 10px;
+        padding: 50px 100px;
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 80px;
+        display: block;
+    }
+    .btn-timeline {
+        margin: 10px;
+        padding: 50px 100px;
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 80px;
+        display: block;
+    }
+    .btn-gallery {
+        margin: 10px;
+        padding: 50px 100px;
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 80px;
+        display: block;
+    }
+    
+}
+
